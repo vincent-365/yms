@@ -54,6 +54,8 @@ add_stylesheet('<link rel="stylesheet" href="' . $board_skin_url . '/style.css">
 $main_sql = "SELECT * FROM g5_write_$bo_table ORDER BY wr_id DESC LIMIT 2";
 $rrr = sql_query($main_sql);
 ?>
+
+tttt
 <div class="j_gall">
     <div class="main_section">
         <?php
