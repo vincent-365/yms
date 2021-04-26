@@ -55,7 +55,6 @@ $main_sql = "SELECT * FROM g5_write_$bo_table ORDER BY wr_id DESC LIMIT 2";
 $rrr = sql_query($main_sql);
 ?>
 
-ttttss
 <div class="j_gall">
     <div class="main_section">
         <?php
