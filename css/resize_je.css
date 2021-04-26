@@ -1,0 +1,112 @@
+span.block{display:block}
+
+/* PC */
+@media all and (min-width:981px){
+
+#header .full_menu{ display:none; }
+
+}
+
+/* PC이하 */
+@media all and (max-width:980px){
+.contents .section .section{ padding-top:0px; }
+#footer .section{ padding:25px 15px; }
+
+/*학교소개 > 취지및연혁*/
+.contents .section .sub_contents .history table.table_01 th{ width:100px; }
+
+
+/*교육철학*/
+.contents .section .sub_contents .page .phil_box img { width:40%; }
+.contents .section .sub_contents .page .phil_box div { width:55%; margin-top:12px; }
+
+/*후원안내*/
+.contents .section .sub_contents .page.info .imgtxt { background:url(/img/sub/info_bg.png) no-repeat 10% bottom }
+.contents .section .sub_contents .page.info .txtbox { width:58%; }
+}
+
+
+/* PC에서 태블릿 사이 */
+@media all and (min-width:769px) and (max-width:980px){
+#header .full_menu{ display:none !important; }
+
+}
+
+
+/* 태블릿에서 모바일 사이 */
+@media all and (min-width:640px) and (max-width:768px){
+
+/*학교교가*/
+.contents .section .sub_contents .song_imgbox .song_img{ margin-top:60px; }
+
+
+}
+
+
+/* 태블릿 이하 사이즈 */
+@media all and (max-width:768px){
+
+/*교육철학*/
+.features span.block{display:inline;}
+.features table.table_04 th{width:35.5%;}
+
+/*교육철학*/
+.contents .section .sub_contents .page .phil_box img { width:100%; float:none;}
+.contents .section .sub_contents .page .phil_box div { width:94%; float:none; padding:12px 3% 20px 3%; margin-top:0;}
+.contents .section .sub_contents .page .phil_box .tit{ text-align: center; padding: 2% 0; border-bottom: 1px solid #ccc; margin-bottom: 3%; font-size:17px; }
+
+/*후원안내*/
+.contents .section .sub_contents .donation_box ul li div p span{font-size:11px;}
+.contents .section .sub_contents .page.info .txtbox { width:auto; }
+.contents .section .sub_contents .page.info .imgtxt { padding:45px 30px; background:url(/img/sub/info_bg.png) no-repeat 5% bottom; background-size:167px;}
+
+/*입학안내*/
+.callbox{ background:none; }
+.call{ width:100%; }
+}
+
+
+/* 모바일 이하 */
+@media all and (max-width:639px){
+#header .full_menu .section{border-bottom:none;}
+.subtitle{ display:none; }
+.txt .list > li p.facility_txt span{ display:none; }
+
+
+
+/*학교교가*/
+.contents .section .sub_contents .song_imgbox .song_img{ margin-top:60px; }
+
+
+
+/*후원안내*/
+.contents .section .sub_contents .page.info .txtbox span:first-child { font-size:16px; line-height:23px; }
+.contents .section .sub_contents .page.info .imgtxt { background-size:100px; padding:10px 15px 10px 115px; border-top:1px solid #ccc;}
+.contents .section .sub_contents .page.info .txtbox span:first-child { margin-bottom:0; }
+
+.contents .section .sub_contents .donation_box ul li{ width: 100%; margin-left:0; margin-bottom:4%;}
+.contents .section .sub_contents .donation_box ul li div p span { font-size:13px; min-height:0; }
+.contents .section .sub_contents .donation_box ul li div p { font-size:16px; margin-bottom:0;}
+.contents .section .sub_contents .page h4 { background: url('/img/sub/h4bullet.jpg') no-repeat left 3px ; font-size:15.5px;}
+.contents .section .sub_contents .donation_box2{ border:none; padding:0; }
+.contents .section .sub_contents .donation_box2 ul li div .title{background-color: #f1f1f1; padding: 5px; text-align: center; border-top: 1px solid #555;}
+.contents .section .sub_contents .donation_box2 ul li{border-right:none; width:100%;}
+.contents .section .sub_contents .donation_box2 ul li:last-child { border-bottom:1px solid #ccc; }
+.contents .section .sub_contents .donation_box2 ul li:first-child div{border-right:none; padding-right: 0;}
+.contents .section .sub_contents .donation_box2 ul li:last-child div{padding-left:0;margin-top: 20px;}
+.contents .section .sub_contents .donation_box2 ul li:last-child div .title{border-top:1px solid #ccc;}
+
+/*교직원소개*/
+
+/*생활안내*/
+.bbox .sbox { width:100%; }
+.bbox .sbox:last-child { margin-left:0; margin-top:20px; padding-top:20px; border-top:1px dotted #ccc; }
+.h6_title { float:right; width:70%; }
+.contents .section .sub_contents .page.life .img { border:1px solid #ccc; }
+}
+
+/* 아이폰5 이하 */
+@media all and (max-width:320px){
+
+
+}

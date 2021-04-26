@@ -1,0 +1,176 @@
+@font-face {
+	font-family: 'Nanum Gothic';
+	font-style: normal;
+	font-weight: 400;
+	src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot);
+	src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.eot?#iefix) format('embedded-opentype'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff2) format('woff2'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.woff) format('woff'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Nanum Gothic';
+	font-style: normal;
+	font-weight: 700;
+	src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot);
+	src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.eot?#iefix) format('embedded-opentype'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff2) format('woff2'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.woff) format('woff'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Nanum Gothic';
+	font-style: normal;
+	font-weight: 900;
+	src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.eot);
+	src: url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.eot?#iefix) format('embedded-opentype'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.woff2) format('woff2'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.woff) format('woff'),
+		url(//themes.googleusercontent.com/static/fonts/earlyaccess/nanumgothic/v3/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+/* 기본 */
+html { overflow-y:scroll; font-family:'Nanum Gothic', 'dotum', 'applegothic', sans-serif, 'arial'; color:#333; }
+body { margin:0; padding:0; font-size:13px; color:#333; font-family:'Nanum Gothic', 'dotum', 'applegothic', sans-serif, 'arial'; word-break:break-all;background:#fff; }
+img { border:0; vertical-align:top; max-width:100%; }
+button { font-family:"Nanum Gothic"; }
+
+a:hover { text-decoration:none; color:#333; }
+a:visited { text-decoration:none; color:#333; }
+a:active{ text-decoration:none; color:#333; }
+a:link{ text-decoration:none; color:#333; }
+
+iframe.opfrm { height:0px; width:0px; margin:0; padding:0; position:absolute; top:0; left:0; }
+iframe.myhole{ height:0px; width:0px; margin:0; padding:0; position:absolute; top:0; left:0; }
+p, ul, ol, li, h1, h2, h3, h4, h5, h6 { margin:0; padding:0; list-style:none; }
+
+
+.layer_popup { position:absolute; z-index:10000;}
+#popup_block_box { position:fixed; top:0; left:0; width:100%; height:100%; background: #000; filter:alpha(opacity=70); opacity: .7; z-index:3000; }
+#popup_block_btn { position:fixed; top:20px; right:20px; z-index:3500; }
+
+#layer_popup7 { border:1px solid #ccc !important; }
+
+
+/* 공통 */
+.section { margin:0 auto; width:980px; }
+.section .out { display:none; }
+.section span.br { display:none; }
+
+
+
+/* 서브탭 */
+ul.sub_tab{overflow:hidden;margin:0 0 30px 0; }
+ul.sub_tab li {float:left}
+ul.sub_tab li a{ padding:9px 0px; display:block; text-align:center; font-size:14px; background:#fff; color:#333; border:1px solid #DBDBDB;font-weight:bold}
+ul.sub_tab li a.on,
+ul.sub_tab li a:hover{ background:#f4f4f4; color:#000;}
+ul.sub_tab33 li{width:33.3%}
+ul.sub_tab16 li{width:16.6%}
+ul.sub_tab11 li{width:11.11%}
+ul.sub_tab20 li{width:20%;}
+ul.sub_tab25 li{width:25%;}
+ul.sub_tab50 li{width:49.9%; background-color: #ededed;}
+
+
+/* 메인 페이지 */
+.main_img{ height:490px; overflow:hidden; position: relative; }
+.main_img ul { margin:0; padding:0;width:100%; position:relative; left:0; top:0; height:490px; }
+.main_img ul li { position:absolute; height:100%; width:100%; top:0; left:100%;}
+.main_img ul li.on { left:0; }
+.main_img ul li > center {position: absolute; top: 32%; width: 100%; left: 0px; z-index: 2;}
+.main_img ul li > center p {font-size:38px; color:#fff;  text-align:center; margin-bottom:10px;line-height:1.5em; font-weight:700; text-shadow:0px 0px 20px rgba(80, 80, 80, 1); }
+.main_img ul li > center span {font-size:20px; color:#fff;  text-align:center; text-shadow:0px 0px 20px rgba(80, 80, 80, 1); }
+.main_img ul li > div center { width:100%; position:absolute; top:77%; z-index:1; }
+.main_img ul li > div center a { opacity:0.8;filter:alpha(opacity=80); padding:15px 30px; background:#fff; color:#000; font-size:15px; font-weight:700; }
+.main_img ol { margin:0; padding:0; text-align:center; position:absolute; z-index:100; left:0; bottom:30px; width:100%; }
+.main_img ol li { display:inline-block; zoom:1; *display:inline; margin-left:10px; }
+.main_img ol li:first-child { margin-left:0; }
+.main_img ol li a { display:block; background:url("/img/main/mainimg_off.png") no-repeat center center; text-indent:5000px; width:17px; height:17px; }
+.main_img ol li a.on ,
+.main_img ol li a:hover { background:url("/img/main/mainimg_on.png") no-repeat center center; }
+.main_img a.main_btn { position:absolute; right:5%; top:45%; z-index:5; display:block; width:31px; height:51px; }
+.main_img a#L { left:5%; }
+
+.main_con { width:100%; padding-top:50px; padding-bottom:64px; text-align:center; }
+.main_con .section{background:#fff; }
+
+.main_con .section ul{overflow:hidden; }
+.main_con .section ul > li{width:31.6%; float:left; margin-left:2.4%; overflow:hidden; }
+.main_con .section ul li.row1 {margin-left:0px; }
+.main_con .section ul li .box{ padding:18px; border:1px solid #ccc; overflow:hidden; text-align:left; }
+
+.main_con .section ul li h3{font-size:17px; font-weight:700; padding-bottom:6px; margin-bottom:17px; border-bottom:1px solid #ccc; overflow:hidden; position:relative; }
+.main_con .section ul li h3 a{font-size:13px; color:#999; font-family:'dotum'; font-weight:400; display:block; position:absolute; bottom:3px; right:0; }
+
+.main_con .section ul li .box1{padding:0; }
+.main_con .section ul li .box1 a{background:url(/img/main/movie.jpg) no-repeat center center; height:153px; display:block; }
+.main_con .section ul li .box1 a:hover{background:url(/img/main/movie_on.jpg) no-repeat center center;}
+.main_con .section ul li .box1 p span { letter-spacing:-1px }
+
+.main_con .section ul li .box2 {overflow:hidden;  height:120px;}
+.main_con .section ul li .box2 a{ display:block; }
+.main_con .section ul li .box2 img{border:1px solid #ddd; float:left; }
+.main_con .section ul li .box2 p{float:right; width:57%; padding:4px 0; line-height:20px; }
+.main_con .section ul li .box2 p span{display:block; font-weight:700; font-size:14px; margin-bottom:5px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; width:90%; }
+
+.main_con .section ul li .box3 { position:relative; overflow:hidden; height:120px;}
+.main_con .section ul li .box3 ol.book { position:relative; height:119px; overflow:hidden; }
+.main_con .section ul li .box3 ol.book li { position:absolute; overflow:hidden; width:100%; left:100%; z-index:1; background:#fff; }
+.main_con .section ul li .box3 ol.book li:first-child { z-index:2; left:0; }
+.main_con .section ul li .box3 ol.book li a { display:block; }
+.main_con .section ul li .box3 ol.book li a img {border:1px solid #ddd; float:left; width:78px; height:117px; }
+.main_con .section ul li .box3 ol.book li a p {float:right; width:64%; padding:0; line-height:20px; text-align:center; }
+.main_con .section ul li .box3 ol.book li a p span {font-weight:700; font-size:14px; margin-bottom:5px; display:block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.main_con .section ul li .box3 ol.bookbtn{position:absolute; bottom:18px; overflow:hidden; width:100%; padding-left:36%; z-index:3; }
+.main_con .section ul li .box3 ol.bookbtn li{width:auto; float:left; }
+.main_con .section ul li .box3 ol.bookbtn li a{display:block; }
+
+.main_con .section ul li.row2{margin-left:0; }
+
+.main_con .section ul li .box4,
+.main_con .section ul li .box5,
+.main_con .section ul li .box7{margin-top:24px; }
+
+.main_con .section ul li .box4{padding:0; }
+
+.main_con .section ul li .box5 h3 { margin-bottom:10px; }
+.main_con .section ul li .box5{margin-bottom:24px; padding:15px 18px; }
+.main_con .section ul li .box5 ol li,
+.main_con .section ul li .box6 ol li {margin-left:0; line-height:22px; }
+.main_con .section ul li .box5 ol li a,
+.main_con .section ul li .box6 ol li a { float:left; width:65%; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+.main_con .section ul li .box5 ol li span,
+.main_con .section ul li .box6 ol li span{color:#999; float:right; display:block; width:35%; text-align:right; }
+
+.main_con .section ul li .box7{ padding:0; }
+
+
+.main_con .section ul li .box4 { margin-bottom:24px; }
+
+.main_con .section ul li .box1,
+.main_con .section ul li .box4,
+.main_con .section ul li .box4_2,
+.main_con .section ul li .box6{padding:23px; height:109px; }
+.main_con .section ul li .box1 h3,
+.main_con .section ul li .box4 h3,
+.main_con .section ul li .box4_2 h3,
+.main_con .section ul li .box6 h3{ font-size:20px; font-weight:700; padding:0; margin:0; border-bottom:0; margin-bottom:13px;}
+.main_con .section ul li .box1 p,
+.main_con .section ul li .box4 p,
+.main_con .section ul li .box4_2 p,
+.main_con .section ul li .box6 p { line-height:22px; }
+
+.main_con .section ul li .box1 { background:url(/img/main/box1_bg.png) no-repeat right bottom; }
+.main_con .section ul li .box4 { background:url(/img/main/box4_bg.png) no-repeat right bottom; }
+.main_con .section ul li .box4_2 { background:url(/img/main/box4_1_bg.png) no-repeat right bottom; }
+.main_con .section ul li .box6 { background:url(/img/main/box6_bg.png) no-repeat right bottom; }
+
+.main_con .section ul li .box1 { position:relative; }
+.main_con .section ul li .box1 img.go{ position:absolute; display:block; bottom:15px; left:20px;}
+
+
+
+
+
+

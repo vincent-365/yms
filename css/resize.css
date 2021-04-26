@@ -1,0 +1,266 @@
+
+
+/* PC */
+@media all and (min-width:981px){
+.section span.br.wide_br { display:inline; }
+.section .out.wide_in { display:block; }
+}
+
+/* PC이하 */
+@media all and (max-width:980px){
+.none900 {display:none}
+.block900 {display:block}
+
+.section { width:auto; }
+.contents .section { padding:0; }
+.sub_visual { display:none; }
+.contents .section .left { float:none; width:auto; padding:15px 0; background:#ededed; }
+.contents .section .left h2 { display:none; }
+.contents .section .left ol { overflow:hidden; border-top:1px solid #ddd; background:#fff; }
+.contents .section .left ol li { float:left; width:49.7%; text-align:center; border-bottom:1px solid #ddd; border-right:1px solid #e2e2e2;}
+.contents .section .left ol li a { text-indent:0px; padding:12px 0;}
+.contents .section .left ul.banner { display:none; }
+.contents .section .sub_contents { float:none; width:auto; border-left:0; padding-left:0; padding:15px; }
+
+/*메인*/
+.main_con { padding:50px 15px 64px 15px; width:auto !important; }
+.main_con .section ul > li { margin-left:0; width:50%!important; }
+.main_con .section ul li .box1,
+.main_con .section ul li .box3,
+.main_con .section ul li .box5,
+.main_con .section ul li .box6 { margin-right:12px; }
+.main_con .section ul li .box2,
+.main_con .section ul li .box4,
+.main_con .section ul li .box4_2,
+.main_con .section ul li .box7,
+.main_con .section ul li .box8 { margin-left:12px; }
+.main_con .section ul li .box3 { margin-top: 24px; height: 300px; }
+
+.main_con .section ul li .box3 ol.book li { height:272px; }
+.main_con .section ul li .box3 ol.book li a { height:300px; text-align:center;}
+.main_con .section ul li .box3 ol.book li a img { height:195px; float:none; width:auto; margin-bottom:10px;}
+.main_con .section ul li .box3 ol.book { height:272px; }
+.main_con .section ul li .box3 ol.book li a p { float:none; width:auto; padding:0; }
+
+.main_img { height:400px; }
+.main_img ul { height:400px; }
+.main_img ul li > div center { top:70%; }
+.main_img ul li { background-size:auto 100% !important; }
+
+/*학교소개 설립취지*/
+.contents .section .sub_contents .page .img img{ width:100% }
+
+/*학교소개 연혁*/
+.contents .section .sub_contents .page .history_box2 { display:none; }
+.contents .section .sub_contents .page .history_box { width:100%; }
+
+/*북한이탈청소년*/
+#sliderFrame { margin:0 auto;  }
+
+.contents .section .sub_contents .page.unite .unite_txt_bg { border:none; padding:0; background:none; }
+
+/*후원안내*/
+.contents .section .sub_contents .donation_box3 ul li div p span { width:30.99%; }
+
+}
+
+
+/* PC에서 태블릿 사이 */
+@media all and (min-width:769px) and (max-width:980px){
+.section span.br.pc_br { display:inline; }
+.section .out.pc_in { display:block; }
+.main_con .section ul > li{width:48.5%;}
+
+
+}
+
+
+/* 태블릿에서 모바일 사이 */
+@media all and (min-width:640px) and (max-width:768px){
+.section span.br.tablet_br { display:inline; }
+.section .out.tablet_in { display:block; }
+}
+
+
+/* 태블릿 이하 사이즈 */
+@media all and (max-width:768px){
+.none700 {display:none}
+.block700 {display:block !important}
+
+#header .full_menu { display:none !important; }
+
+.contents .section .sub_contents h3 span { display:none; }
+
+.calendar_btn ul li a { margin-top:2px; }
+.calendar {color:#333; border-collapse: inherit;}
+.calendar colgroup { display:none; }
+.calendar td { display:block; float:none; width:auto; padding:12px 10px; }
+.calendar td.tnone { display:none; }
+.calendar td.null{display:none;}
+.calendar thead{display:none; }
+.calendar th, .calendar td{ border-top:none; }
+.calendar th, .calendar td div {height:auto; overflow:hidden; }
+.calendar td div { margin:0; padding:0; }
+.calendar td div p { margin:0; padding:5px 0; float:left; width:15%; line-height:19px; color:#000; font-weight: 700;}
+.calendar td div p span { display:inline-block; zoom:1; *display:inline; }
+.calendar td div ol { margin:0%; padding:0; float:left; width:85%; }
+.calendar td div ol li { overflow:visible; white-space:normal; line-height:19px; margin:0; border-left:1px solid #ccc; padding:5px 0 5px 6%; text-align:justify }
+.calendar td:hover div ol { position:static; margin:0; width:85%; border:none; background:#eee; padding:0px; }
+
+/*입학안내*/
+.contents .section .sub_contents .page.admission .imgtxt {background:url('/img/sub/add_bg.jpg') left center no-repeat; background-size:30%; padding:0; }
+.contents .section .sub_contents .page .txtbox { width:65%; padding:2% 10px 2% 0; font-size:14px; line-height:23px; }
+
+/*북한이탈청소년*/
+#sliderFrame { display:none; }
+
+/*교직원소새*/
+.contents .section .sub_contents .page .professor_box ul li div.pic div { height:200px; }
+
+/*교가*/
+.contents .section .sub_contents .listen_box { display:none; }
+.contents .section .sub_contents .page .song_imgbox .song_img { margin-top:0; }
+
+/*교육시설*/
+.contents .section .sub_contents .page.facility a.btn_left1 { position:absolute; top:14%; left:0; padding:10%; padding-left:1%;}
+.contents .section .sub_contents .page.facility a.btn_right1 { position:absolute; top:14%; right:0; padding:10%; padding-right:1%;}
+
+/*후원안내*/
+.contents .section .sub_contents .donation_box3 ul li div p span { display:block; width:100%; }
+}
+
+
+/* 모바일 이하 */
+@media all and (max-width:639px){
+.none400 {display:none}
+.block400 {display:block !important}
+
+.section span.br.mobile_br { display:inline; }
+.section .out.mobile_in { display:block; }
+
+/*메인*/
+.main_con { padding:24px 15px; }
+.main_con .section ul > li { width:100% !important }
+.main_con .section ul li .box1,
+.main_con .section ul li .box3,
+.main_con .section ul li .box5,
+.main_con .section ul li .box6 { margin-right:0; }
+.main_con .section ul li .box2,
+.main_con .section ul li .box4,
+.main_con .section ul li .box4_2,
+.main_con .section ul li .box7,
+.main_con .section ul li .box8 { margin-left:0; }
+.main_con .section ul li .box3 { height:auto; }
+
+
+.main_con .section ul li .box3,
+.main_con .section ul li .box5,
+.main_con .section ul li .box6,
+.main_con .section ul li .box2,
+.main_con .section ul li .box4,
+.main_con .section ul li .box4_2,
+.main_con .section ul li .box7 { margin-top:24px; }
+
+.main_img { height:260px; }
+.main_img ul { height:260px; }
+.main_img ul li > div center { top:65%; }
+.main_img #L { display:none; }
+.main_img #R  { display:none; }
+
+.main_con .section ul li .box3 ol.book li { height:272px; }
+.main_con .section ul li .box3 ol.book li a { height:300px; text-align:center;}
+.main_con .section ul li .box3 ol.book li a img { height:117px; float:left; width:78px; margin-bottom:0px;}
+.main_con .section ul li .box3 ol.book { height:120px; }
+.main_con .section ul li .box3 ol.book li a p { float:right; width:64%; padding:26px 0;}
+
+/*연혁*/
+.contents .section .sub_contents .page .history_box table.table_01 tbody th { width:110px; padding:5px 5px;}
+
+/* 교직원 */
+.professor_box {width:95%; margin:0; margin-bottom:10px; margin-top:10px;}
+.select_category { width:100%; float:none; }
+
+
+/* 게시판 */
+.bbs_search select {width:20%}
+.bbs_search input.str {width:40%}
+
+/* 갤러리스타일 */
+.photo_list li {width:50%}
+.photo_list li a {margin:5px; padding:5px; height:146px; }
+.photo_list li a .photo_img {height:100px}
+
+/* 웹진스타일 */
+table.webzine td {padding:9px; line-height:20px; font-weight:400;}
+
+/*오시는길*/
+#map_canvas { height:200px; }
+
+table.table_01.block { background:#efefef }
+table.table_01.block tr { display:block; overflow:hidden; border-bottom:1px solid #ccc;}
+table.table_01.block tr th { width:21.8% !important; float:left; min-height:26px; border-left:none; background:#efefef; padding:8px 1.2% 3px 1.2%; border-bottom:none !important; height:100%; display:block; text-align:center !important; }
+table.table_01.block tr td {width:73%;  min-height:20px; float:right; padding:7px 1.2%; border-bottom:none !important; display:block; background:#fff;}
+table.table_01.block .borb { border-bottom:1px solid #ccc !important; }
+
+/*여명도서*/
+.photo_list.book ol li { width:50% }
+.photo_list.book li a { height:174px; }
+
+/*입학안내*/
+.admission table.table_04 th { width:62px; padding:5px 8px; }
+.admission table.table_01 .borl_none { border-left:none !important; }
+.contents .section .sub_contents .page.admission .imgtxt {background:none;}
+.contents .section .sub_contents .page .txtbox { width:94%; padding:20px 3%; font-size:14px; line-height:23px; }
+.contents .section .sub_contents .page.admission .button_box { width:100%;  }
+.contents .section .sub_contents .page.admission .button_box a{ width:48%; float:left; display:block; padding:8px 0;}
+
+/*학생복지*/
+.contents .section .sub_contents .page.welfare table.table_03 th {width:27px; padding:5px }
+.contents .section .sub_contents .page.welfare .img { border:1px solid #ccc; }
+
+/*북한이탈청소년*/
+ul.teen_thum li { width:100%; }
+
+/*이사회*/
+.contents .section .sub_contents .page.council table .mm { width:60px; padding: 5px 6px;}
+/*말줄임
+.ellipsis{ width:10%; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; text-align:center;}*/
+
+/* 조직도*/
+.organi_imgbox { width:93%; padding:0 3%; }
+
+/*교훈*/
+.contents .section .sub_contents .page.phil .img { border:1px solid #ccc; }
+
+/*통일학교란*/
+.contents .section .sub_contents .page.unite .img { border:1px solid #ccc; }
+
+/*교육과정*/
+.contents .section .sub_contents .page.features .img { border:1px solid #ccc; }
+.contents .section .sub_contents .page.features .img2 { border:none; }
+.contents .section .sub_contents .page.features .img2 .table_01 td,
+.contents .section .sub_contents .page.features .img2 .table_01 th{ padding: 5px 5px; }
+.contents .section .sub_contents .page.features .table_04 th { padding:5px; width:74px; text-align:center; }
+
+/*교직원소새*/
+.contents .section .sub_contents .page .professor_box{ width:46%; }
+.contents .section .sub_contents .page .professor_box ul li div.pic div { height:170px; }
+.contents .section .sub_contents .page .professor_box ul li div.professor_txt { min-height:116px; }
+.contents .section .sub_contents .page .professor_box ul li div.professor_txt > p, 
+.contents .section .sub_contents .page .teacher p { font-size:12px; line-height:20px; }
+
+/*교가*/
+.contents .section .sub_contents .page .song_imgbox .song_img { margin-bottom:10px; }
+
+}
+
+/* 아이폰5 이하 */
+@media all and (max-width:320px){
+.section span.iphone_out{display:none; }
+.contents .section .left ol li { width:49.5% !important }
+
+.main_img { height:230px; }
+.main_img ul { height:230px; }
+
+.contents .section .sub_contents .germany .box_txt p.txt_left { background:none; float:none; width:auto; text-align:left; }
+}
